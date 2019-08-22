@@ -12,4 +12,11 @@ function funcao(){
     //coloca objeto no vetor
     vet.push(objeto)
     }
+    //calcula o estoque
+    var estoque = 0
+    for(var i=0; i<5; i++){
+       estoque = estoque + vet[1].qtde
+    }
+    alert("Quantidade em estoque: " + estoque)   
+    
 }
